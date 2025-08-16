@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shōnen Jump</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div id="menu-icon" class="menu-icon">☰</div>
+      <h1>Shōnen Jump</h1>
+      <nav id="menu" class="hidden">
+        <ul>
+          <li><a href="#">EMISION</a></li>
+          <li><a href="#">NUEVO</a></li>
+          <li><a href="#">INFO</a></li>
+          <li><a href="#">MERCH</a></li>
+    
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="Shōnen Jump-grid">
+        <div class="Shōnen Jump-item">
+          <img src="Imagenes/black clover.webp" alt="Black clover" />
+        </div>
+        <div class="Shōnen Jump-item">
+          <img src="Imagenes/boku no hero.webp" alt="Boku no hero" />
+        </div>
+        <div class="Shōnen Jump-item">
+          <img src="Imagenes/bleach.jpg" alt="bleach" />
+        </div>
+        <div class="Shōnen Jump-item">
+          <img src="Imagenes/naruto.jpg" alt="Naruto" />
+        </div>
+        <div class="Shōnen Jump-item">
+            <img src="Imagenes/one piece.jpg" alt="One Piece" />
+          </div>
+          <div class="Shōnen Jump-item">
+            <img src="Imagenes/papa ball.webp" alt="Dragon Ball" />
+          </div>
+      </div>
+    </main>
+    <script text="text/javascript">
+      document
+        .getElementById("menu-icon")
+        .addEventListener("click", function () {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("hidden");
+        });
+    </script>
+  </body>
+</html>
